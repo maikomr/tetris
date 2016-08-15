@@ -1,0 +1,33 @@
+body {
+  font-size: 2em;
+  color: white;
+  background-color: black;
+}
+
+canvas {
+  margin-left: 100px;
+  border: 2px solid white;
+  float:left;
+}
+
+.hiden {
+  display: none;
+}
+
+.info {
+	text-align: center;
+	margin:auto;
+  margin-top: 50px;
+}
+
+li {
+  list-style: none;
+}
+
+.delete {
+  font-weight: bold;
+  color: white;
+  background: none;
+  font-size: 1em;
+  border: none;
+}

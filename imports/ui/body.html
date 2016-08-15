@@ -1,0 +1,16 @@
+<body>
+    <canvas id="canvas" width='300' height='600'></canvas>
+	<div class="info">
+        <p>Score: <span id="score"></span></p>
+        <p>Level: <span id="level"></span></p>
+        <p>Nex Goal: <span id="goal"></span></p>
+        <div id="scores">
+        	<h3 class="{{#if emptyScores}}hiden{{/if}}">High Scores</h3>
+	        <ul>
+	        	{{#each scores}}
+	        		{{> score}}
+	        	{{/each}}
+	        </ul>
+        </div>
+    </div>
+</body>
