@@ -1,3 +1,5 @@
+Primero debes tener instalado Meteor.
+
 Para correr la aplicación abre una terminal o línea de comandos.
 Luego sitúate en el folder del juego tetris.
 
